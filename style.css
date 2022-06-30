@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(203, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+ol{
+    text-align: center;
+    padding-right: 50px;
+}
+.photo{
+    padding: center;
+}
+#first{
+    text-align: center;
+    padding-top: 50px;
+    display: block;
+}
+h3 , h4 , h5  p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#second{
+    padding-top: 50px;
+    text-align: center;
+}
+#third{
+    padding-top: 50px;
+}   
+.lang{
+    width:100%;
+    padding: center , 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+.lang td , tr{
+    border: 1px solid;
+    padding: 10px;
+    background-color: beige;
+}
+#fifth{
+    padding-top: 50px;
+    text-align: center;
+}
+#sixth{
+    padding-top: 50px;
+}
