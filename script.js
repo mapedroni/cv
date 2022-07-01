@@ -53,10 +53,12 @@ function isPrime(n) {
 }
 
 // exercise 1
-function nameCut(name){
-    var name = '';
-    var lunghezzaStringa = frase.lenght;
-    return length
+var string = "anna";
+function nameCut(string) {
+    var middle = string.lenght / 2;
+    middle = Math.round(middle);
+    var substring = string.substring (middle,string.lenght);
+    return substring;
 }
 
 // exercise 2
@@ -65,3 +67,31 @@ function squareRoot(number) {
 	var squareRoot = Math.sqrt(number);
 	return squareRoot;
 }
+
+// exercise 3
+
+var squaredList
+
+
+//exercise 5
+
+function createListItem(ingredient, id) {
+    var htmlString = '<li id="ingredient-' + id + '" class="li-ingredient">'
+        + ingredient + '</li>';
+        return htmlString;
+    }
+    function createList(listOfIngredients) {
+        var htmlString = '';
+        for(var i = 0; i < listOfIngredients.length; i = i + 1) {
+            htmlString = htmlString + createListItem(listOfIngredients[i], i);
+        }
+        return htmlString;
+    }
+    
+    var listOfIngredients = ["apple", "orange", "pear", "nutella"];
+    
+    function populateList() {
+        var ulElement = document.getElementById('ingredients');
+        ulElement.innerHTML = createList(listOfIngredients);
+    }
+        
