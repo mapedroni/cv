@@ -42,6 +42,8 @@ for(var i = 0; i < listOfNames.length; i = i + 1) {
 	return transformedNames;
 }
 
+// exercise 4
+
 function isPrime(n) {
     if(n = 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97){
         return false;
@@ -49,8 +51,17 @@ function isPrime(n) {
         return true;
     }
 }
+
+// exercise 1
 function nameCut(name){
     var name = '';
     var lunghezzaStringa = frase.lenght;
     return length
+}
+
+// exercise 2
+
+function squareRoot(number) {
+	var squareRoot = Math.sqrt(number);
+	return squareRoot;
 }
